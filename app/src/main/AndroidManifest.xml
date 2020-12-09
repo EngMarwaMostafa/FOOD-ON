@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.food">
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FOOD">
+        <activity android:name="android.marwa.foodon.ChefFoodPanel.UpdateDelete_Dish"></activity>
+        <activity android:name="android.marwa.foodon.ChefFoodPanel.chef_postDish" />
+        <activity android:name="android.marwa.foodon.Delivery_sendotp" />
+        <activity android:name="android.marwa.foodon.DeliveryForgotPassword" />
+        <activity android:name="android.marwa.foodon.DeliveryFoodPanel_BottomNavigation" />
+        <activity android:name="android.marwa.foodon.Delivery_VerifyPhone" />
+        <activity android:name="android.marwa.foodon.sendotp" />
+        <activity android:name="android.marwa.foodon.CustomerFoodPanel_BottomNavigation" />
+        <activity android:name="android.marwa.foodon.ForgotPassword" />
+        <activity android:name="android.marwa.foodon.VerifyPhone" />
+        <activity android:name="android.marwa.foodon.Chefsendotp" />
+        <activity android:name="android.marwa.foodon.ChefForgotPassword" />
+        <activity android:name="android.marwa.foodon.ChefFoodPanel_BottomNavigation" />
+        <activity android:name="android.marwa.foodon.ChefVerifyPhone" />
+        <activity android:name="android.marwa.foodon.Delivery_Registration" />
+        <activity android:name="android.marwa.foodon.Delivery_Loginphone" />
+        <activity android:name="android.marwa.foodon.Delivery_Login" />
+        <activity android:name="android.marwa.foodon.Registration" />
+        <activity android:name="android.marwa.foodon.Loginphone" />
+        <activity android:name="android.marwa.foodon.Login" />
+        <activity android:name="android.marwa.foodon.ChefRegistration" />
+        <activity android:name="android.marwa.foodon.Chefloginphone" />
+        <activity android:name="android.marwa.foodon.Cheflogin" />
+        <activity android:name="android.marwa.foodon.ChooseOne" />
+        <activity android:name="android.marwa.foodon.MainMenu" />
+        <activity android:name="com.theartofdev.edmodo.cropper.CropImageActivity" />
+        <activity android:name="android.marwa.foodon.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
